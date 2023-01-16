@@ -18,6 +18,10 @@
             font-size: 20px
         }
 
+        p{
+            font-size: 13px
+        }
+
         .center {
             margin: 0;
             position: absolute;
@@ -48,29 +52,132 @@
             color: rgb(255, 80, 109);
             background-color: transparent;
             text-decoration: none;
+        }
+        
+        a2:link {
+            color: pink;
+            background-color: transparent;
+            text-decoration: none;
             }
+
+        a2:visited {
+            color: pink;
+            background-color: transparent;
+            text-decoration: none;
+            }
+
+        a2:hover {
+            color: rgb(255, 127, 149);
+            background-color: transparent;
+            text-decoration: none;
+            }
+
+        a2:active {
+            color: rgb(255, 80, 109);
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        #animated-sprite {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+      }
     </style>
         <div class="center">
-            <!-- hello -->
-            <!--src: url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');-->
-            RISHAB <strong>SESHADRI</strong>
+            
+            <strong>RISHAB SESHADRI</strong>
             <p></p> 
             <h1>
-                <a href = "./resume.pdf"> RESUME </a>
+                <a href = "./Resume - Website.pdf"> RESUME </a>
             </h1>
                 <body>
                 <p></p> 
                 <a href="https://www.github.com/RishabSeshadri"><i class="fa fa-github"></i></a>&emsp;
                 <a href="https://www.linkedin.com/in/rishab-seshadri-3243631a2/"><i class="fa fa-linkedin"></i></a>&emsp;
                 <a href="https://open.spotify.com/user/ferrari681?si=201f2399ed114c40"><i class="fa fa-spotify"></i></a>&emsp;
-                <a href="https://www.instagram.com/rishab.f681/"><i class="fa fa-instagram"></i></a>
+                <a href="https://www.instagram.com/rishab.f681/"><i class="fa fa-instagram"></i></a>&emsp;
+                <a href="mailto:rishab.seshadri@gmail.com"><a2><i class="fa fa-envelope"></a2></i></a>
             </body>
             <br></br>
+            <br></br>
+            <p>
+                <strong>HELLO!<br></br>I'M A COMPUTER SCIENCE STUDENT AT THE UNIVERSITY OF GEORGIA. <br></br>CHECK OUT MY PROJECTS BELOW:!</strong>
+                <!-- Hello! My name is Rishab Seshadri, and I'm studying Computer Science at the University of Georgia. Check out my project below! -->
+            </p>
             <br></br>
             <br></br>
 
             <body><a href="https://github.com/RishabSeshadri/GRISELDA/blob/master/README.md">GRISELDA</a>&emsp;|&emsp;<a href="https://github.com/The-Inreel/PastEven/blob/main/README.md">PASTEVEN</a>&emsp;|&emsp;<a href="https://github.com/The-Inreel">THE INREEL</a></body>
 
-        </div>
 
+            <body>
+                <!-- <img id="animated-sprite" src="Untitled.png" width="50" height="50"> -->
+
+                <script>
+                    /*
+                  // Get the img element
+                  let sprite = document.getElementById("animated-sprite");
+            
+                  // Set the initial position of the sprite
+                  sprite.style.left = "0px";
+                  sprite.style.top = "0px";
+            
+                  // Function to move the sprite
+                  function moveSprite() {
+                    // Get the current position of the sprite
+                    let x = parseInt(sprite.style.left);
+                    let y = parseInt(sprite.style.top);
+            
+                    // Move the sprite left or right, with random pausing
+                    if (Math.random() < 0.5) {
+                      x += 2;
+                      setTimeout(moveSprite,Math.random() * 5000);
+                      x += 2;
+                      setTimeout(moveSprite, Math.random() * 5000);
+                      x += 2;
+                      setTimeout(moveSprite, Math.random() * 5000);
+                      x += 2;
+                      setTimeout(moveSprite, Math.random() * 5000);
+                      x += 2;
+                      setTimeout(moveSprite, Math.random() * 5000);
+                    } else {
+                      x -= 2;
+                      setTimeout(moveSprite, Math.random() * 5000);
+                      x -= 2;
+                      setTimeout(moveSprite, Math.random() * 5000);
+                      x -= 2;
+                      setTimeout(moveSprite, Math.random() * 5000);
+                      x -= 2;
+                      setTimeout(moveSprite, Math.random() * 5000);
+                      x -= 2;
+                      setTimeout(moveSprite, Math.random() * 5000);
+                    }
+            
+                    // Ensure the sprite stays within the bounds of the website
+                    if (x < 0) {
+                      x = 0;
+                    } else if (x > window.innerWidth - 50) {
+                      x = window.innerWidth - 50;
+                    }
+                    if (y < 0) {
+                      y = 0;
+                    } else if (y > window.innerHeight - 50) {
+                      y = window.innerHeight - 50;
+                    }
+            
+                    // Update the position of the sprite
+                    sprite.style.left = x + "px";
+                    sprite.style.top = y + "px";
+            
+                    // Randomly pause before moving again
+                    setTimeout(moveSprite, Math.random() * 50000);
+                  }
+            
+                  // Start moving the sprite
+                  moveSprite();
+                  */
+                </script>
+            </body>
+        </div>
 </html>
