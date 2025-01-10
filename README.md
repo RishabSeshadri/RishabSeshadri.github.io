@@ -1,1 +1,1 @@
-# RishabSeshadri.github.io
+# rishabseshadri.github.io
